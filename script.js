@@ -42,11 +42,11 @@ function changeCurrency(){
 
     if(currencySelect.value == "dolar"){
         currencyName.innerHTML = 'Dólar americano'
-        currencyImage.src = "./assets/dolar.png"
+        currencyImage.src = "./assets/Dolar.png"
     }
     if(currencySelect.value == "euro"){
         currencyName.innerHTML = 'Euro'
-        currencyImage.src = "./assets/euro.png"
+        currencyImage.src = "./assets/Euro.png"
     }
 
     convertValues()
